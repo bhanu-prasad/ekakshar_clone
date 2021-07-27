@@ -1,0 +1,22 @@
+.headerNav{
+    padding: 10px 0px;
+    max-height: 87.72px;
+}
+
+.navflex{
+    max-height: 67.72px;
+}
+.headerNav > .container {
+    min-width: 970px;
+}
+.navflex > .logo_nav > a{
+    width: 80px;
+}
+.navflex > .logo_nav > a > img{
+    max-height: 67.72px;
+}
+.navflex{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
