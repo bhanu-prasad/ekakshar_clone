@@ -1,0 +1,216 @@
+a.watchDemoVid{
+    display: block;
+margin: 25px 0px 0px;
+transition: 0.4s;
+outline: none !important;
+letter-spacing: 0.8px;
+font-size: 16px;
+color: #222;
+font-weight: 500;
+}
+a.watchDemoVid img{
+        width: 40px;
+        position: relative;
+        left: auto;
+        right: auto;
+        top: auto;
+        bottom: auto;
+        margin-right: 10px;
+}
+a.watchDemoVid:hover{
+    filter: grayscale(1);
+text-decoration: underline !important;
+}
+@media(max-width:991px){
+    a.watchDemoVid img{
+        padding: 0px;
+    }
+}
+.home_hero .container{
+    position:relative;
+}
+.home_hero{
+    position: relative;
+}
+.home_hero img {
+    position: absolute;
+    right: 55px;
+    bottom: 32px;
+}
+.heightFull{
+    height: 100%;
+}
+
+.home_hero:before {
+    content: '';
+    background-color: #462DE3;
+    position: absolute;
+    width: 50%;
+    height: 96%;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    z-index: -9;
+}
+
+.home_hero::after {
+    content: '';
+    background-image: url(https://ekakshar.co.in/wp-content/uploads/2020/06/background-ekakshar.png);
+    width: 786px;
+    height: 818px;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    background-repeat: no-repeat;
+    right: 0px;
+    z-index: -1;
+    background-position: top;
+}
+@media (max-width: 1199px){
+    .home_hero:after {
+    width: 630px;
+    height: 715px;
+    background-size: contain;
+}
+
+    .home_hero{
+        height: 715px;
+    }
+    .home_hero img{
+            right: -44px;
+bottom: 28px;
+    }
+    
+
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.home_hero h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+}
+.colorPurple{
+    color: #462DE3;
+}
+
+.home_hero h2 {
+    font-size: 26px;
+    margin: 0px;
+    padding: 5px 0px 15px;
+    line-height: normal;
+    letter-spacing: 0.03px;
+    color: #000;
+}
+
+.ctaEkakshar{
+    background-color: #f8c145;
+    color: #333;
+    border: 1px solid #f8c145;
+    border-radius: 30px;
+    padding: 15px 30px;
+    display: inline-block;
+    line-height: normal;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    font-weight: 400;
+    transition: 0.3s;
+    box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.12);
+}
+.ctaEkakshar:hover{
+    background-color: transparent;
+    border: 1px solid #333;
+    text-decoration: none;
+    color: #000;
+}
+.connectWithTeamEk{
+	cursor:pointer;
+}   
+@media screen and (min-width:1199px) {
+    .home_hero img {
+        position: relative;
+        left: 50%;
+        bottom: 28px;
+    }
+    
+}
+
+.home_hero h1{
+    font-size: 60px;
+    font-weight: 700;
+
+}
+@media screen and (min-width:992px) {
+    
+}
+@media screen and (max-width:991px) {
+    .home_hero::after, .home_hero:before{
+        display: none;
+    }
+    .home_hero h1 {
+        font-size: 32px;
+        margin: 20px 0px 10px;
+        line-height: 1.1;
+    }
+    
+    b, strong {
+        font-weight: 700 !important;
+    }
+    .home_hero h2 {
+    font-size: 20px !important;
+    }
+    .home_hero h1 {
+        font-size: 32px;
+    }
+    .home_hero {
+        text-align: center;
+        padding: 65px 0px 40px;
+        position: relative;
+    }
+    .home_hero img {
+        position: relative;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        margin: auto;
+        padding: 0px 15px;
+        max-width: 100%;
+    }
+    .ctaEkakshar{
+        font-size: 18px;
+        padding: 13px 22px;
+    }
+}
+
+.home_hero strong{
+    font-weight: 700;
+}
+.home_hero{
+    height: 818px;
+}
+.home_data{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.home_data::before, .home_data::after{
+	content:'';
+	display:block;
+}
+
+.home_hero img {
+    position: absolute;
+    right: 55px;
+    bottom: 32px;
+}
+@media (max-width: 1199px)
+{.home_hero img {
+    right: -44px;
+    bottom: 28px;
+}}
+
+@media (min-width: 1200px)
+{.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1170px;
+}}

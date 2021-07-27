@@ -1,0 +1,96 @@
+.whatisEk{
+    display: block;
+}
+.whatisEk h2{
+    color: #fff;
+}
+.whatisEk p{
+	    margin: 0px;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    line-height: 1.4;
+    font-weight: 400;
+    padding: 15px 15px 0px;
+}
+.whatisEk .boxAbout{
+    padding: 45px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.12);
+    background-color: #462DE3;
+    position: relative;
+    width: calc(100% - 150px);
+    margin: auto;
+}
+.whatisEk .boxAbout:before{
+    background-image: url(https://ekakshar.co.in/wp-content/uploads/2020/06/shape.svg);
+    content: '';
+    width: 139px;
+    height: 138px;
+    position: absolute;
+    left: -50px;
+    top: -45px;
+    z-index: -1;
+    background-repeat: no-repeat;
+}
+.whatisEk .boxAbout:after{
+    background-image:url('https://ekakshar.co.in/wp-content/uploads/2020/06/shape.svg');
+    content:'';
+    width: 139px;
+    height: 138px;
+    position: absolute;
+    right: -50px;
+    bottom: -45px;
+    z-index: -1;
+    background-repeat: no-repeat;
+}
+
+ /* .whatisEk .boxAbout{
+    padding: 30px 15px;
+    width: 100%;
+} */
+/* .whatisEk .boxAbout:before{
+left: -20px;
+top: -33px;
+width: 80px;
+height: 79px;
+background-size: contain;
+}  */
+ .whatisEk .boxAbout:after{
+    width: 80px;
+    height: 79px;
+    background-size: contain;
+    right: -15px;
+    bottom: -28px;
+}
+.whatisEk p{
+        padding: 15px 0px 0px;
+    font-size: 16px;
+}
+/*
+    .whatisEk {
+padding: 35px 15px;
+}  */
+
+.headingEkakshar{
+	margin: 0px;
+    color: #333;
+    font-size: 36px;
+    font-weight: 500;
+    letter-spacing: 0.1px;
+    line-height: normal;
+    position:relative;
+    padding: 0px 0px 12px;
+}
+.headingEkakshar:before{
+    content: '';
+    background-color: #f8c145;
+    width: 56px;
+    height: 6px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    bottom: 0px;
+    border-radius: 12px;
+}
