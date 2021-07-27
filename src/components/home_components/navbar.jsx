@@ -11,7 +11,15 @@ class NavBar extends Component {
                             <a href="/" ><img src={logo} alt="nav_logo" /></a>
                         </div>
                         <div className="nav_links">
-                            
+                            <a href="/" className="link">Services</a>
+                            <a href="/" className="link">About Us</a>
+                            <a href="/" className="link">Blog</a>
+                            <a href="/" className="contactus_nav">Contact Us</a>
+                        </div>
+                        <div className="hamburger">
+                            <i></i>
+                            <i></i>
+                            <i></i>
                         </div>
                     </div>
                 </div>
