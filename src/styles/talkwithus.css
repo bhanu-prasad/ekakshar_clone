@@ -85,8 +85,39 @@
     .talkToExperts {
         padding: 0px 15px 35px;
     }
+
+    .talkToExperts .row {
+        padding: 30px 15px;
+    }
+    .talkToExperts .form_in{
+        max-width: 100%;
+    }
+    .headingEkakshar {
+        font-size: 26px;
+    }
 }
 .talkToExperts .form_div{
     margin-bottom: 24px;
     text-align: center;
+}
+
+.btndiv > .subbtn{
+    background-color: #f9ba2b !important;
+    color: #333 !important;
+    border: 1px solid #f9ba2b !important;
+    padding: 14px 75px !important;
+    font-size: 20px !important;
+    letter-spacing: 0.4px !important;
+    border-radius: 30px !important;
+    transition: 0.4s !important;
+}
+
+.btndiv > .subbtn:hover {
+        color: #fff !important;
+        background-color: #333 !important;
+        border: 1px solid #333 !important;
+}
+
+.btndiv{
+    padding: 10px 0px 0px;
 }

@@ -20,7 +20,10 @@ export default class Talkwithus extends Component {
                         <label className="form_label">
                         Phone number <span>*</span>
                         </label>
-                        <input className="form_in" type="number" required="" />
+                        <input className="form_in" type="tel" required="" />
+                    </div>
+                    <div className="btndiv">
+                      <button className="subbtn">Submit</button>
                     </div>
                 </div>
               </form>

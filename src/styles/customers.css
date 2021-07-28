@@ -1,0 +1,128 @@
+.customers{
+    padding: 70px 0px;
+    display: block;
+}
+
+
+.customers .row {
+    box-shadow: 0px 0px 50px 9px rgb(214 210 210 / 32%);
+    border-radius: 8px;
+    position: relative;
+    width: calc(100% + 60px);
+    padding: 50px 15px 30px;
+    background-color: #fff;
+    margin-left: -30px;
+    justify-content: center;
+}
+.customers .row:before {
+    content: '';
+    position: absolute;
+    background-color: #f8c145;
+    display: block;
+    width: 400px;
+    height: 600px;
+    left: -150px;
+    bottom: -50px;
+    z-index: -1;
+    border-radius: 0px 0px 180px 0px;
+}
+
+.customers .row:after {
+    content: '';
+    position: absolute;
+    background-color: #462DE3;
+    display: block;
+    width: 400px;
+    height: 600px;
+    right: -150px;
+    z-index: -1;
+    top: -70px;
+    border-radius: 180px 0px 0px 0px;
+}
+
+.carouselitem{
+        box-shadow: 0 0 13px 0 rgb(0 0 0 / 6%);
+        padding: 30px;
+        border-radius: 6px;
+        width: calc(100% - 20px);
+        margin: 10px;
+}
+
+
+.carouselitem p {
+    font-size: 16px;
+    margin: 0px;
+    letter-spacing: 0.3px;
+    color: #222;
+    line-height: 1.4;
+    opacity: 0.7;
+    position: relative;
+}
+.carouselitem p:before {
+    content: "“";
+    color: #4e43e4;
+    font-weight: 600;
+    font-size: 20px;
+}
+.carouselitem p:after {
+    content: "”";
+    color: #4e43e4;
+    font-weight: 600;
+    font-size: 20px;
+    position: absolute;
+}
+
+.carouselitemb b{
+    display: block;
+    padding: 25px 0px 5px;
+    color: #4941e3;
+    letter-spacing: 0.8px;
+    line-height: normal;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.carouselitem i {
+    display: block;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    color: #f8c246;
+}
+.carouselitem strong {
+    display: block;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    line-height: 1.4;
+    padding: 0px 0px 10px;
+    color: #222;
+}
+.owl-item{
+    width: 316.667px; 
+    margin-right: 10px;
+}
+@media screen and (max-width:991px) {
+    .customers{
+        padding: 35px 15px;
+    }
+
+    .customers .row {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        padding: 40px 15px 40px;
+    }
+    .carouselitem{
+        padding: 30px 15px;
+    }
+    .carouselitem p {
+        font-size: 14px;
+    }
+    .carouselitem  b {
+        padding: 15px 0px 5px;
+        font-size: 12px;
+    }
+    .carouselitem i, .carouselitem strong
+    {
+        font-size: 12px;
+    }
+}
