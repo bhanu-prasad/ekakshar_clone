@@ -1,0 +1,92 @@
+.talkToExperts {
+    padding: 30px 0px 0px;
+    position: relative;
+    text-align: center;
+}
+.talkToExperts::before {
+    content: '';
+    background-image: url(https://ekakshar.co.in/wp-content/uploads/2020/06/shape3.svg);
+    width: 75px;
+    height: 138px;
+    position: absolute;
+    right: 0px;
+    bottom: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: -1;
+}
+.talkToExperts h2{
+    margin-bottom: 32px;
+}
+
+.talkToExperts::after {
+    content: '';
+    background-image: url(https://ekakshar.co.in/wp-content/uploads/2020/06/shape2.svg);
+    width: 70px;
+    height: 138px;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: -1;
+}
+
+.talkToExperts .row {
+    box-shadow: 0 0 13px 0 rgb(0 0 0 / 6%);
+    padding: 45px;
+    border-radius: 20px 20px 0px 0px;
+    justify-content: center;
+    background-color: #f2f2f2;
+    display: block;
+}
+
+
+.talkToExperts .form_inputs{
+    padding: 10px 0px;
+}
+.talkToExperts .form_label{
+    
+    display: block;
+    font-weight: 700;
+    font-size: 16px;
+    float: none;
+    line-height: 1.3;
+    margin: 0 0 4px 0;
+    padding: 0;
+
+}
+.form_label > span{
+    color:#ff0000;
+    font-weight: 400;
+}
+
+.talkToExperts .form_in{
+    max-width: 60%;
+    width: 100% !important;
+    margin: auto !important;
+    color: #333 !important;
+    border: 1px solid #ddd !important;
+    border-radius: 4px !important;
+    height: 45px !important;
+    padding: 6px 10px;
+    margin: auto;
+    outline: none;
+}
+@media screen and (max-width: 991px) {
+    .talkToExperts:before {
+        width: 40px;
+        height: 70px;
+    }
+    .talkToExperts:after {
+        width: 40px;
+        height: 70px;
+    }
+    .talkToExperts {
+        padding: 0px 15px 35px;
+    }
+}
+.talkToExperts .form_div{
+    margin-bottom: 24px;
+    text-align: center;
+}

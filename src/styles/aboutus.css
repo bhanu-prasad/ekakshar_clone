@@ -1,5 +1,6 @@
 .whatisEk{
     display: block;
+    padding:70px 0px;
 }
 .whatisEk h2{
     color: #fff;
@@ -45,32 +46,30 @@
     background-repeat: no-repeat;
 }
 
- /* .whatisEk .boxAbout{
-    padding: 30px 15px;
-    width: 100%;
-} */
-/* .whatisEk .boxAbout:before{
-left: -20px;
-top: -33px;
-width: 80px;
-height: 79px;
-background-size: contain;
-}  */
- .whatisEk .boxAbout:after{
+@media screen and (max-width: 991px){ 
+    .whatisEk .boxAbout:after{
     width: 80px;
     height: 79px;
     background-size: contain;
     right: -15px;
     bottom: -28px;
 }
-.whatisEk p{
-        padding: 15px 0px 0px;
-    font-size: 16px;
-}
-/*
+.whatisEk .boxAbout:before{
+    left: -20px;
+    top: -33px;
+    width: 80px;
+    height: 79px;
+    background-size: contain;
+    }  
+
     .whatisEk {
-padding: 35px 15px;
-}  */
+        padding: 35px 15px;
+    }
+    .whatisEk .boxAbout {
+        padding: 30px 15px;
+        width: 100%;
+    }
+}
 
 .headingEkakshar{
 	margin: 0px;
@@ -94,3 +93,8 @@ padding: 35px 15px;
     bottom: 0px;
     border-radius: 12px;
 }
+
+@media (max-width: 991px)
+{.whatisEk {
+    padding: 35px 15px;
+}}
