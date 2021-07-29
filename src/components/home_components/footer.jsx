@@ -11,11 +11,11 @@ export default class Footer extends Component {
                                     <img src={logo} alt="" />
                                 </a>
                             </div>
-                            <div class="footaddress">
+                            <div className="footaddress">
                                 <span>Address</span>
                                 <p>204, Block 5, Suncity Apartments, <br/>Bellandur, Bengaluru- 560102</p>
                             </div>
-                            <div class="footaddress">
+                            <div className="footaddress">
                                 <span>Contact Us</span>
                                 <p>Number: <a href="tel:+91-8118031797">+91-8118031797</a></p>
                                 <p>Email at: <a href="mailto:ekakshar.consultants@gmail.com">ekakshar.consultants@gmail.com</a></p>

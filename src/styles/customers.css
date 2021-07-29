@@ -8,12 +8,13 @@
     box-shadow: 0px 0px 50px 9px rgb(214 210 210 / 32%);
     border-radius: 8px;
     position: relative;
-    width: calc(100% + 60px);
     padding: 50px 15px 30px;
     background-color: #fff;
-    margin-left: -30px;
     justify-content: center;
+    display: block;
 }
+
+
 .customers .row:before {
     content: '';
     position: absolute;
@@ -32,97 +33,48 @@
     position: absolute;
     background-color: #462DE3;
     display: block;
-    width: 400px;
+    width: 000px;
     height: 600px;
     right: -150px;
     z-index: -1;
+    overflow: hidden;
     top: -70px;
     border-radius: 180px 0px 0px 0px;
-}
-
-.carouselitem{
-        box-shadow: 0 0 13px 0 rgb(0 0 0 / 6%);
-        padding: 30px;
-        border-radius: 6px;
-        width: calc(100% - 20px);
-        margin: 10px;
-}
+} 
 
 
-.carouselitem p {
-    font-size: 16px;
-    margin: 0px;
-    letter-spacing: 0.3px;
-    color: #222;
-    line-height: 1.4;
-    opacity: 0.7;
-    position: relative;
-}
-.carouselitem p:before {
-    content: "“";
-    color: #4e43e4;
-    font-weight: 600;
-    font-size: 20px;
-}
-.carouselitem p:after {
-    content: "”";
-    color: #4e43e4;
-    font-weight: 600;
-    font-size: 20px;
-    position: absolute;
+.customers ul {
+    padding: 0px;
+    margin: 20px 0px 0px;
 }
 
-.carouselitemb b{
+.customers ul li {
     display: block;
-    padding: 25px 0px 5px;
-    color: #4941e3;
-    letter-spacing: 0.8px;
-    line-height: normal;
-    font-size: 14px;
-    font-weight: 500;
+    width: calc(20% - 14px);
+    margin: auto;
+}
+.customers ul li img {
+    filter: grayscale(1);
+    height: auto;
 }
 
-.carouselitem i {
-    display: block;
-    font-weight: 400;
-    letter-spacing: 0.3px;
-    color: #f8c246;
-}
-.carouselitem strong {
-    display: block;
-    font-weight: 500;
-    letter-spacing: 0.3px;
-    line-height: 1.4;
-    padding: 0px 0px 10px;
-    color: #222;
-}
-.owl-item{
-    width: 316.667px; 
-    margin-right: 10px;
-}
 @media screen and (max-width:991px) {
+
     .customers{
         padding: 35px 15px;
     }
-
     .customers .row {
         margin-left: auto;
         margin-right: auto;
         width: 100%;
         padding: 40px 15px 40px;
     }
-    .carouselitem{
-        padding: 30px 15px;
+
+    .customers ul li {
+        width: calc(33.33% - 20px);
     }
-    .carouselitem p {
-        font-size: 14px;
-    }
-    .carouselitem  b {
-        padding: 15px 0px 5px;
-        font-size: 12px;
-    }
-    .carouselitem i, .carouselitem strong
-    {
-        font-size: 12px;
+
+    .customers ul li img {
+        width: 100%;
     }
 }

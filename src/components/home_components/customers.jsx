@@ -53,6 +53,102 @@ const Testimonial = (props) => {
 }
 
 
+const clients = [
+    {
+        url:"https://ekakshar.co.in/wp-content/uploads/2020/06/getrelax-1.png",
+        mxwdth:{"maxWidth":"90px"}
+    },
+    {
+        url:"https://ekakshar.co.in/wp-content/uploads/2020/06/pld-industries-1.png",
+        mxwdth:{"maxWidth":"190px"}
+    },
+    {
+        url:"https://ekakshar.co.in/wp-content/uploads/2020/06/white-lotus-1.jpeg",
+        mxwdth:{"maxWidth":"180px"}
+    },
+    {
+        url:"https://ekakshar.co.in/wp-content/uploads/2020/06/iplus-technogies.jpg",
+        mxwdth:{"maxWidth":"150px"}
+    },
+    {
+        url:"https://ekakshar.co.in/wp-content/uploads/2020/06/nidhi-farms.png",
+        mxwdth:{"maxWidth":"180px"}
+    },
+    {
+        url:"https://ekakshar.co.in/wp-content/uploads/2020/06/clientek.jpg",
+        mxwdth:{"maxWidth":"100px"}
+    },
+    {
+        url:"https://ekakshar.co.in/wp-content/uploads/2020/06/Nuccar-ek.jpg",
+        mxwdth:{"maxWidth":"135px"}
+    },
+    {
+        url:"https://ekakshar.co.in/wp-content/uploads/2020/11/primUlogo.png",
+        mxwdth:{"maxWidth":"120px"}
+    },
+    {
+        url:"https://ekakshar.co.in/wp-content/uploads/2020/11/needibellLogo.jpg",
+        mxwdth:{"maxWidth":"180px"}
+    },
+    {
+        url:"https://ekakshar.co.in/wp-content/uploads/2020/11/deliver4Ulogo.png",
+        mxwdth:{"maxWidth":"100px"}
+    },
+    {
+        url:"https://ekakshar.co.in/wp-content/uploads/2020/11/cyraacsLogo.png",
+        mxwdth:{"maxWidth":"140px"}
+    },
+    {
+        url:"https://ekakshar.co.in/wp-content/uploads/2020/11/cocoPalmsLogo.jpeg",
+        mxwdth:{"maxWidth":"120px"}
+    },
+    {
+        url:"https://ekakshar.co.in/wp-content/uploads/2020/11/realCareLogp.png",
+        mxwdth:{"maxWidth":"85px"}
+    },
+    {
+        url:"https://ekakshar.co.in/wp-content/uploads/2020/11/kyleImgLogo.jpeg",
+        mxwdth:{"maxWidth":"100px"}
+    },
+    {
+        url:"https://ekakshar.co.in/wp-content/uploads/2020/11/beautySandLogo.jpeg",
+        mxwdth:{"maxWidth":"90px"}
+    },
+    {
+        url:"https://ekakshar.co.in/wp-content/uploads/2020/11/techBizLogo.png",
+        mxwdth:{"maxWidth":"100px"}
+    },
+    {
+        url:"https://ekakshar.co.in/wp-content/uploads/2020/11/oryxLensLogoImg.jpeg",
+        mxwdth:{"maxWidth":"150px"}
+    },
+    {
+        url:"https://ekakshar.co.in/wp-content/uploads/2020/11/bLogoImg.jpeg",
+        mxwdth:{"maxWidth":"70px"}
+    },
+    {
+        url:"https://ekakshar.co.in/wp-content/uploads/2020/11/oligosoftImg.jpeg",
+        mxwdth:{"maxWidth":"100px"}
+    }
+
+]
+
+
+
+function Clients(props) {
+    return (
+        <li>
+            <img src={props.url} style={props.mxwdth} alt="" />
+        </li>
+    )
+}
+
+const cliimgs = clients.map((item, index)=>{
+    return <Clients key={index} url={item.url} mxwdth={item.mxwdth}/>
+})
+
+
+
 
 
 export default class Customers extends Component {
@@ -61,11 +157,12 @@ export default class Customers extends Component {
             <section className="customers text-center">
                 <div className="container">
                     <div className="row">
-                        <h2 class="headingEkakshar">Our customers review</h2>
+                        <h2 className="headingEkakshar">Our customers review</h2>
+                        <ul className="flexbox">
+                            {cliimgs}
+                        </ul>
                     </div>
-                    <div>
-                         
-                    </div>
+                    
                 </div>
             </section>
         )
