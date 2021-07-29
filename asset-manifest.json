@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/ekakshar_clone/static/css/main.8bcce723.chunk.css",
+    "main.js": "/ekakshar_clone/static/js/main.da7c8fd1.chunk.js",
+    "main.js.map": "/ekakshar_clone/static/js/main.da7c8fd1.chunk.js.map",
+    "runtime-main.js": "/ekakshar_clone/static/js/runtime-main.32eda746.js",
+    "runtime-main.js.map": "/ekakshar_clone/static/js/runtime-main.32eda746.js.map",
+    "static/css/2.1bbc3ea0.chunk.css": "/ekakshar_clone/static/css/2.1bbc3ea0.chunk.css",
+    "static/js/2.96a2521b.chunk.js": "/ekakshar_clone/static/js/2.96a2521b.chunk.js",
+    "static/js/2.96a2521b.chunk.js.map": "/ekakshar_clone/static/js/2.96a2521b.chunk.js.map",
+    "index.html": "/ekakshar_clone/index.html",
+    "static/css/2.1bbc3ea0.chunk.css.map": "/ekakshar_clone/static/css/2.1bbc3ea0.chunk.css.map",
+    "static/css/main.8bcce723.chunk.css.map": "/ekakshar_clone/static/css/main.8bcce723.chunk.css.map",
+    "static/js/2.96a2521b.chunk.js.LICENSE.txt": "/ekakshar_clone/static/js/2.96a2521b.chunk.js.LICENSE.txt",
+    "static/media/consultants-1-1.f7a3ddb9.png": "/ekakshar_clone/static/media/consultants-1-1.f7a3ddb9.png",
+    "static/media/ganesha.478c8c3e.png": "/ekakshar_clone/static/media/ganesha.478c8c3e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.32eda746.js",
+    "static/css/2.1bbc3ea0.chunk.css",
+    "static/js/2.96a2521b.chunk.js",
+    "static/css/main.8bcce723.chunk.css",
+    "static/js/main.da7c8fd1.chunk.js"
+  ]
+}
